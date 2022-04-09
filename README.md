@@ -1,24 +1,75 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello rails back end
 
-Things you may want to cover:
+> get a random greeting
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- PostgreSQL
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+Simply click on `Code` drop down menu should appear then `download ZIP` after extraction you could follow `Usage` step
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+`gems`
+`ruby`
+`postgres`
 
-* Deployment instructions
+### Setup
 
-* ...
+###### Do this step if you didn't download as ZIP, if you did, skip to next step please
+
+to setup the project on your local, run these commands
+
+```shell
+git clone https://github.com/Amrhub/hello-rails-back-end.git
+
+cd hello-rails-back-end  // to open the project
+```
+
+### Install
+
+```shell
+    bundler # install dependencies
+```
+
+### Usage
+
+```shell
+    rails db:create # create database
+    rails db:migrate # migrate tables
+    # or use rails db:schema:load instead of previous commands but it will depend on latest version of schema.rb when running
+    rails db:seed # get default messages
+
+    rails s # start local host
+    rails c # to start rails console
+```
+
+### Tests
+
+## Author
+
+👤 **Amr Ahmed**
+
+- GitHub: [@Amrhub](https://github.com/Amrhub)
+- LinkedIn: [Amr Ahmed](https://linkedin.com/in/amr-abdelrehim-ahmed)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
