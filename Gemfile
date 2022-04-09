@@ -48,4 +48,4 @@ end
 
 gem 'rubocop', '~> 1.27'
 
-gem "rack-cors", "~> 1.1"
+gem 'rack-cors', '~> 1.1'

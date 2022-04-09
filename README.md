@@ -4,6 +4,10 @@
 
 > get a random greeting
 
+## Front-end
+
+[Front-End](https://github.com/Amrhub/hello-rails-front-end)
+
 ## Built With
 
 - Ruby on Rails
